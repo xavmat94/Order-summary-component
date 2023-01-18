@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background-image: url(pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: hsl(225, 100%, 94%);
+  height:65rem;
+}
+
+.main-container {
+  width: 100%; 
+    height: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+  font-family: 'Red Hat Display', sans-serif;
+  height: 39rem;
+  background-color: white;
+  border-radius: 15px;
+  width: 400px;
+}
+
+img {
+  border-radius: 15px;
+  width: 400px;
+  height: 200px;
+}
+
+
+header {
+  text-align: center;
+  width: 20rem;
+  margin: auto;
+  font-size: 16px;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  height: auto;
+  font-size: 16px;
+  justify-content: center;
+}
+
+button {
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(62, 27, 189);
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0px 15px 20px hsl(218, 15%, 80%);
+}
+
+button:hover {
+  background-color:  hsl(245, 70%, 65%);
+}
+
+
+a {
+  height: 30px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 12px;
+  color: hsl(245, 64%, 49%);
+}
+
+a:hover {
+  color: mediumslateblue;
+  text-decoration: none;
+}
+
+
+footer a {
+  color: gray;
+  margin: 20px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+
+.music-icon {
+  margin: auto;
+  image-orientation: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.music-icon img {
+  width: 43px;
+  height: 43px;
+}
+
+.annualplan {
+  margin: auto;
+  margin-left: 0px;
+  text-align: left;
+  padding: 5px;
+  font-family: 'Red Hat Display', sans-serif;
+  padding-left: 0px;
+}
+
+.change {
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  margin-right: 15px;
+  margin-top: 25px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+p {
+  color: rgb(141, 141, 141);
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 24px;
+}
