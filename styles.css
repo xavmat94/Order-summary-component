@@ -23,17 +23,10 @@ body {
 .image-container {
   font-family: 'Red Hat Display', sans-serif;
   height: 39rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 15px;
   width: 400px;
 }
-
-img {
-  border-radius: 15px;
-  width: 400px;
-  height: 200px;
-}
-
 
 header {
   text-align: center;
@@ -42,7 +35,7 @@ header {
   font-size: 16px;
   height: 100px;
   margin-top: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 footer {
@@ -99,48 +92,40 @@ footer a:hover {
   color: black;
 }
 
-
-.music-icon {
-  margin: auto;
-  image-orientation: center;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.music-icon img {
-  width: 43px;
-  height: 43px;
-}
-
 .annualplan {
-  margin: auto;
-  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10em;
   text-align: left;
-  padding: 5px;
-  font-family: 'Red Hat Display', sans-serif;
-  padding-left: 0px;
+  font-size: 0.7rem;
+}
+
+.annualplan h2 {
+  color: hsl(223, 47%, 23%);
+  font-size: .9rem;
+}
+
+.annualplan p {
+  color: hsl(224, 23%, 55%);
+  font-size: .8rem;
 }
 
 .change {
-  text-align: center;
-  padding: 5px;
-  margin: auto;
-  margin-right: 15px;
-  margin-top: 25px;
+  padding-left:5rem;
 }
 
-h2 {
-  margin-bottom: 5px;
-  font-size: 14px;
+.plan-box {
+  background:hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  margin: 0 1.5em 1.5em 1.5em;
+  padding: 1em;
+  border-radius: 10px;
 }
 
-p {
-  color: rgb(141, 141, 141);
-  margin-top: 0px;
-  font-size: 14px;
-  line-height: 22px;
-}
-
-h1 {
-  font-size: 24px;
+img {
+  border-radius: 15rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
