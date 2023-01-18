@@ -125,7 +125,9 @@ footer a:hover {
 }
 
 img {
-  border-radius: 15rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 400px;
+  height: 200px;
 }
